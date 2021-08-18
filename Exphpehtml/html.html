@@ -1,0 +1,71 @@
+
+ Escreva algo:<br /> 
+<textarea name = "sugestao"></textarea>
+<text name = "sugestao"></text>
+
+<form action="? $PHP_SELF; ?>" method="POST"> 
+    <p> 
+    Nome:<br /> 
+    <input type="text" size="30" name="nome"> 
+    </p>   
+    <p> 
+    E-mail:<br /> 
+    <input type="text" size="30" name="email"> 
+    </p>   
+    <p> 
+    Telefone:<br /> 
+    <input type="text" size="35" name="telefone"> 
+    </p>   
+    <p> 
+    Mensagem:<br /> 
+    <input type="text" size="35" name="mensagem"> 
+    </p>   
+    <p>
+           
+Usuario:<br /> 
+<p><input type="user" name="usuario"/></p>
+Senha:<br /> 
+<p><input type="password" name="senha"/></p>
+
+Escolha um arquivo:<br /> 
+<p><input type="file"name="arquivo"/></p>
+    <p>
+<input type="radio"name="logar"value="permanecer logado"/>Continuar Logado<br>
+</p>
+
+Viagem para duas pessoas?<br /> 
+<label>
+    <input type="checkbox"name="linguagens"value="PHP"/>
+Sim
+</label>
+<label>
+    <input type="checkbox"name="linguagens"value="PHP"/>
+Não
+</label>
+    </p>
+Escolha um Estado:<br /> 
+</p>
+<form method="post" action="">
+ <select name="Estado">
+  <option value="Rio de Janeiro">Rio de Janeiro</option>
+  <option value="Sao Paulo">Sao Paulo</option>
+ </select>
+ <input type="submit" name="submit" value="Enviar"/>
+</form>
+
+Escolha uma praia:<br /> 
+     </p>
+     <form method="post" action="">
+      <select name="praia">
+       <option value="Peruibe">Peruibe</option>
+       <option value="Cabo Frio">Cabo Frio</option>
+       <option value="Guaruja">Guaruja</option>
+       <option value="Santos">Santos</option>
+       <option value="Copacabana">Copacabana</option>
+       <option value="Praia das conchas">Praia das Conchas</option>
+      </select>
+      <input type="submit" name="submit" value="Enviar"/>
+     </form>
+<input type="submit" name="BTEnvia" value="Enviar"> 
+<input type="reset" name="BTApaga" value="Apagar">
+<select name="praias" multiple="multiple"></select>
